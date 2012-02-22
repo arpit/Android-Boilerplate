@@ -1,0 +1,13 @@
+
+    <resources>
+        <style name="BoilerPlate.TabPageIndicator.Text" parent="Widget">
+        	<item name="android:textAppearance">@style/TextAppearance.TabPageIndicator</item>
+        	<item name="android:textColor">@color/vpi__dark_theme</item>
+        	<item name="android:textSize">16sp</item>
+        	<item name="android:maxLines">1</item>
+    	</style>
+        <style name="BoilerPlate.TabsStyle" parent="@android:style/Theme.Holo.NoActionBar">
+            <item name="vpiTabPageIndicatorStyle">@style/Widget.TabPageIndicator</item>
+            <item name="vpiTabTextStyle">@style/BoilerPlate.TabPageIndicator.Text</item>
+        </style>
+    </resources>
